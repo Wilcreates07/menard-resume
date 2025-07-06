@@ -1,0 +1,38 @@
+    /* Portfolio Grid Styles */
+    .portfolio {
+    text-align: center;
+    padding: 40px;
+    background-color: #f0f0f0;
+    }
+
+    .portfolio h2 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    }
+
+    .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+    }
+
+    .grid-item {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+    }
+
+    .caption {
+    margin-top: 10px;
+    font-size: 0.95em;
+    color: #444;
+    }
